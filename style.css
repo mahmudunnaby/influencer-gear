@@ -1,0 +1,33 @@
+body{
+    font-family: 'Poppins', sans-serif;
+
+}
+.manu-bar{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.navigation ul{
+    display: flex;
+    text-decoration: none;
+    
+}
+.top-area{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 120px;
+}
+.article-area{
+    flex: 1;
+
+}
+.article-title{
+    font-size: 52px;
+}
+.article-body{
+    font-size: 16px;
+}
+.figure-area{
+    flex: 1;
+
+}
