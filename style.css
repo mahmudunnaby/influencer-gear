@@ -25,7 +25,7 @@ body{
     border: 50px;
     list-style-type: none;
     font-weight: 800;
-    color: black;
+    color:#787885;
 }
 .navigation ul li a{
     text-decoration: none;
@@ -93,4 +93,46 @@ body{
 }
 .brand-picture img{
     padding: 31px;
+}
+
+/* ....................................................................
+                         POPULAR COLLECTION SECTION
+....................................................................... */
+.popular-collection{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.cards{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 100px;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.card{
+    box-shadow: 10px 10px 50px gray;
+    display: flex;
+    flex-direction: column;
+    border-radius: 5px;
+    margin-left: 20px;
+    margin-right: 20px;   
+}
+.card p{
+    font-weight: 700;
+    font-size: 14px;
+    color: #787885;
+    padding-left: 10px;
+}
+.card h1{
+    font-size: 28px;
+    font-weight: 700;
+    padding-left: 10px;
+}
+.card h2{
+    padding-left: 10px;
+}
+.card img{
+    padding: 10px;
+    size: 100%;
 }
