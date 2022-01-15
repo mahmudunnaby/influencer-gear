@@ -73,6 +73,7 @@ body{
     font-size: 1.2rem;
     padding-left: 10px;
     text-decoration: none;
+    padding-top: 4px;
 }
 .figure-area{
     flex: 1;
@@ -105,6 +106,24 @@ body{
     margin-top: 100px;
     margin-bottom: 100px;
 }
+.mid-section>h2{
+    display: flex;
+    flex-direction: row;
+    /* align-items: flex-end; */
+    justify-content: flex-end;
+    margin-top: 100px;
+
+}
+.mid-section>h2 .fa-arrow-right{
+    color: hsl(338, 74%, 53%);
+    font-weight: 900;
+}
+
+.mid-section>h2 {
+    color: hsl(338, 74%, 53%);
+    font-weight: 800;
+}
+
 .popular-collection{
     display: flex;
     flex-direction: column;
@@ -118,7 +137,7 @@ body{
     justify-content: space-evenly;
 }
 .card{
-    box-shadow: 10px 10px 50px gray;
+    box-shadow: 10px 10px 30px gray;
     display: flex;
     flex-direction: column;
     border-radius: 5px;
@@ -138,6 +157,12 @@ body{
 }
 .card h2{
     padding-left: 10px;
+}
+.fa-star{
+    color: #FB8200;
+}
+.fa-star-half-alt{
+    color: #FB8200
 }
 .card img{
     padding: 10px;
