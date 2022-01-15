@@ -243,6 +243,11 @@ input {
         justify-content: center; */
         display: flex;
         flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+        margin-left: 50px;
+        margin-right: 50px;
+
     }
     .brand-name{
         font-size: 20px;
@@ -258,27 +263,35 @@ input {
         display: flex;
         flex-direction: column;
         flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        align-content: center;
         margin-left: 10px;
-        padding-left: 100px;
+        padding-left: 10px;
     }
     .article-title{
         font-size: 28px;
+        text-align: center;
         
     }
     .article-body{
         font-size: 14px;
+        text-align: center;
         
+    }
+    .button{
+        margin-left: 50px;
     }
     .brands{
         display: grid;
-        grid-template-columns: 4;
+        grid-template-columns: 3;
         align-items: center;
         justify-content: center;
     
     }
 
     .brand-picture img{
-        padding: 5px;
+        padding: 20px;
     }
     .figure-area img{
         height: 257px;
@@ -302,8 +315,12 @@ input {
         margin-bottom: 50px;
     }
     .last-section h1{
-        font-size: 32px;
-        margin-left: 50px;
+        font-size: 40px;
+        margin-left: 10px;
+        text-align: center;
+    }
+    input{
+        margin-bottom: 50px;
     }
     .fa-hand-point-right{
         font-size: 3rem;
@@ -311,4 +328,38 @@ input {
     
     }
 
+}
+  /* ....................................................................
+                         TAB RESPONSIVE
+....................................................................... */
+
+@media only screen and (min-width: 688px) and (max-width: 992px) {
+    .manu-bar{ 
+        margin-left: 10px;
+    
+    }
+    .navigation ul li{
+        padding-left: 10px;
+        border: 10px;
+        margin-top: 20px;
+    }
+    .cards{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        gap: 100px;
+        align-items: center;
+        justify-content: space-evenly;
+    }
+    .brands{
+        display: grid;
+        grid-template-columns: 4;
+    
+    }
+    .brand-picture img{
+        padding: 41px;
+    }
+    .last-section h1{
+        font-size: 40px;
+        text-align: center;
+    }
 }
