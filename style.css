@@ -98,6 +98,13 @@ body{
 /* ....................................................................
                          POPULAR COLLECTION SECTION
 ....................................................................... */
+
+.mid-section{
+    margin-right: 100px;
+    margin-left: 100px;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
 .popular-collection{
     display: flex;
     flex-direction: column;
@@ -115,8 +122,8 @@ body{
     display: flex;
     flex-direction: column;
     border-radius: 5px;
-    margin-left: 20px;
-    margin-right: 20px;   
+    /* margin-left: 20px;
+    margin-right: 20px;    */
 }
 .card p{
     font-weight: 700;
